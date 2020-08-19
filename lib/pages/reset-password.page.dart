@@ -9,7 +9,7 @@ class ResetPasswordPage extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           color: Colors.black38,
-          onPressed: () => { Navigator.pop(context) },
+          onPressed: () => { Navigator.pop(context, false) },
         ),
       ),
       body: Container(
